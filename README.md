@@ -138,7 +138,7 @@ python3 --version
 
 ```bash
 git clone https://github.com/yourusername/recon-toolkit.git
-cd recon-toolkit
+cd recon_v2
 pip install -r requirements.txt
 python3 main.py -t example.com
 ```
@@ -152,7 +152,7 @@ Using a venv isolates dependencies and prevents version conflicts. It also fixes
 ```bash
 # 1. Clone the repo
 git clone https://github.com/yourusername/recon-toolkit.git
-cd recon-toolkit
+cd recon_v2
 
 # 2. Create the virtual environment
 python3 -m venv venv
