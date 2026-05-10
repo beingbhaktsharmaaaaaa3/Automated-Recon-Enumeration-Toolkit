@@ -140,7 +140,7 @@ python3 --version
 git clone https://github.com/yourusername/recon-toolkit.git
 cd recon_v2
 pip install -r requirements.txt
-python3 main.py -t example.com
+python3 main.py -t example.com or http://<ip_add> or http://www.website.com
 ```
 
 ---
@@ -171,7 +171,7 @@ venv\Scripts\Activate.ps1
 pip install -r requirements.txt
 
 # 5. Run the tool
-python3 main.py -t example.com
+python3 main.py -t http://example.com
 
 # 6. Deactivate when done
 deactivate
@@ -204,7 +204,7 @@ brew install nmap
 
 ```bash
 # Full scan — all modules, all 3 report formats
-python3 main.py -t example.com
+python3 main.py -t http://example.com
 
 # Full scan with custom output path
 python3 main.py -t example.com -o ./reports/client_acme
