@@ -155,8 +155,8 @@ If you get `PermissionError` when running the tool, the folder was created by ro
 
 ```bash
 # Replace 'kali' with your actual username if different
-sudo chown -R kali:kali ~/pen_Tools/
-sudo chmod -R 755 ~/pen_Tools/
+sudo chown -R kali:kali ~/Automated-Recon-Enumeration-Toolkit/
+sudo chmod -R 755 ~/Automated-Recon-Enumeration-Toolkit/
 ```
 
 ---
